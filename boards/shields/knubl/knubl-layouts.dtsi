@@ -1,13 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
-&default_encoder {
-  status = "okay";
-}
 
-&default_layout {
-  transform = <&default_transform>;
-}
 
 / {
   chosen {
@@ -69,4 +63,12 @@
       , <&xiao_d  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
       ;
   };
+};
+
+&default_encoder {
+  status = "okay";
+};
+
+&default_layout {
+  transform = <&default_transform>;
 };
