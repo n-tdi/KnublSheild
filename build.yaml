@@ -18,3 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+board: [ "xiao_ble" ]
+shield: [ "knubl" ]
+include:
+  - board: xiao_ble
+    shield: knubl
+    cmake-args: -DCONFIG_ZMK_STUDIO=y

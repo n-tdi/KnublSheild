@@ -1,0 +1,11 @@
+file_format: "1"
+id: knubl
+name: Knubl
+type: shield
+url: https://github.com/n-tdi/KnublShield
+requires: [xiao_ble]
+features:
+  - keys
+  - encoder
+  - studio
+  
